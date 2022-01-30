@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return 'OP果然都是FW';
-        if (cps <= 8) return '别太得意了';
-        if (cps <= 10)  return '可';
-        if (cps <= 15) return '腻味汰渍';
+        if (cps <= 50) return 'OP果然都是FW';
+        if (cps <= 80) return '别太得意了';
+        if (cps <= 100)  return '可';
+        if (cps <= 150) return '腻味汰渍';
         return '你为帝后';
     }
 
